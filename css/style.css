@@ -134,7 +134,7 @@ ul li i {
     color: white;
     background-color: #151414;
     width: 100%;
-    height: 50vh;
+    height: 65vh;
 }
 
 .footer-container {
@@ -185,4 +185,15 @@ input {
     padding: 15px 20px;
     color: #F15B22;
     font-weight: 600;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+ul li{
+    list-style: none;
+    margin-top: 30px;
+}
+li a{
+    text-decoration: none;
 }
