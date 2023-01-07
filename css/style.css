@@ -44,75 +44,145 @@
 
 /* Previous Section Style */
 
-.previous-year{
+.previous-year {
     display: flex;
     justify-items: center;
     width: 77%;
     margin: auto;
     height: 100%;
 }
-.left-img{
+
+.left-img {
     margin-right: 30px;
 }
-.right-document{
+
+.right-document {
     margin-top: 180px;
 }
-.section-title{
+
+.section-title {
     font-size: 40px;
     font-family: 'Work Sans';
     color: #151414;
     margin-bottom: 30px;
 }
-.section-description{
+
+.section-description {
     color: #444343;
     font-size: 16px;
     line-height: 26px;
 }
-.right-document ul{
+
+.right-document ul {
     margin-top: 20px;
 
 }
-ul li{
+
+ul li {
     list-style: none;
     color: #444343;
     line-height: 26px;
 }
-ul li i{
+
+ul li i {
     color: green;
 }
 
 /* Plan Section Style */
 
-.sub-section-title{
+.sub-section-title {
     text-align: center;
     margin-top: 90px;
 }
-.items{
+
+.items {
     margin: 50px 0 100px 0;
     display: flex;
     gap: 100px;
     justify-content: center;
 }
-.img-gradient{
+
+.img-gradient {
     height: 300px;
-    width: 85%;
+    width: 80%;
     background-image: url('../images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     background-size: cover;
     background-blend-mode: overlay;
     margin: auto;
     border-radius: 5px;
 }
-.gradient-title{
+
+.gradient-title {
     color: white;
     padding-top: 50px;
     margin-left: 60px;
     font-family: 'Work Sans';
     font-size: 40px;
 }
-.btn-color{
+
+.btn-color {
     background-color: white;
     color: #F15B22;
     margin-left: 60px;
     font-family: 'Work Sans';
     font-size: 20px;
+}
+
+/* Footer Style */
+.footer {
+    margin-top: 90px;
+    color: white;
+    background-color: #151414;
+    width: 100%;
+    height: 50vh;
+}
+
+.footer-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    gap: 300px;
+    margin: auto;
+}
+
+. .footer-title {
+    font-family: 'Work Sans';
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer-description {
+    font-family: 'Work Sans';
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.right-title {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 325px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #151414;
+    color: wheat;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.btn-footer {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px 20px;
+    color: #F15B22;
+    font-weight: 600;
 }
