@@ -88,6 +88,29 @@ ul li i {
     color: green;
 }
 
+/* I will Do Style */
+
+.gools{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.gool{
+    border: 2px solid gray;
+    margin: 5px;
+    padding: 18px;
+}
+.i-will-do{
+    margin: 100px 0px;
+}
+.will-do-title{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Work Sans';
+    color: #568f39;
+    margin-bottom: 50px;
+}
+
 /* Plan Section Style */
 
 .sub-section-title {
@@ -186,14 +209,14 @@ input {
     color: #F15B22;
     font-weight: 600;
 }
-ul{
+.footer-ul{
     display: flex;
     gap: 20px;
 }
-ul li{
+.footer-ul li{
     list-style: none;
     margin-top: 30px;
 }
-li a{
+.footer-ul li a{
     text-decoration: none;
 }
